@@ -1,0 +1,4 @@
+// Create a .babelrc file in the root directory:
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
