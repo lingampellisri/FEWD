@@ -23,8 +23,11 @@ import ObjectDisplay from "./ObjectList";
 import ButtonDisplay from "./ButtonList";
 import ParentComponent from "./Components/ParentComponent";
 
+import UserGreetings from "./Components/userGreeting";
+
 
 import Event_Button from "./Components/Event_Han";
+import ListRender from "./Components/List_Rendering";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -45,6 +48,10 @@ root.render(
     <Event_Button/>
 
     <ParentComponent/>
+
+<UserGreetings/>
+
+<ListRender/>
 
 
 
