@@ -26,7 +26,7 @@ import ParentComponent from "./Components/ParentComponent";
 import UserGreetings from "./Components/userGreeting";
 import StyleComponent from "./Components/Style_Component";
 import Form from "./Components/Form";
-
+import LifeCycleA from "./Components/LifeCycle";
 
 import Event_Button from "./Components/Event_Han";
 import ListRender from "./Components/List_Rendering";
@@ -58,6 +58,8 @@ root.render(
 <StyleComponent/>
 
 <Form/>
+
+<LifeCycleA/>
 
     </div>
   );

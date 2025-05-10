@@ -99,7 +99,7 @@ class Form extends Component
                    <h3>UserName is  {this.state.username}</h3>
                    <h3>Age is  {this.state.Age}</h3>
                    <h3>Comments is  {this.state.comments}</h3>
-                   <h3>Topics is  {this.state.topics}</h3>
+                     <h3>Topics is  {this.state.topics}</h3>
             </div>
         </form>
     }
