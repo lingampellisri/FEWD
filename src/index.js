@@ -21,6 +21,10 @@ import ExportDefault , { Combineed } from "./CombinedImports";
 import ConditionalRendering from "./ConditionalRendering";
 import ObjectDisplay from "./ObjectList";
 import ButtonDisplay from "./ButtonList";
+import ParentComponent from "./Components/ParentComponent";
+
+
+import Event_Button from "./Components/Event_Han";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -37,6 +41,10 @@ root.render(
 
     <App />
     <Counter_Button/>
+
+    <Event_Button/>
+
+    <ParentComponent/>
 
 
 
