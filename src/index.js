@@ -25,6 +25,7 @@ import ParentComponent from "./Components/ParentComponent";
 
 import UserGreetings from "./Components/userGreeting";
 import StyleComponent from "./Components/Style_Component";
+import Form from "./Components/Form";
 
 
 import Event_Button from "./Components/Event_Han";
@@ -55,6 +56,8 @@ root.render(
 <ListRender/>
 
 <StyleComponent/>
+
+<Form/>
 
     </div>
   );
