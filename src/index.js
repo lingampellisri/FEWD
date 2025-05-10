@@ -24,6 +24,7 @@ import ButtonDisplay from "./ButtonList";
 import ParentComponent from "./Components/ParentComponent";
 
 import UserGreetings from "./Components/userGreeting";
+import StyleComponent from "./Components/Style_Component";
 
 
 import Event_Button from "./Components/Event_Han";
@@ -53,7 +54,7 @@ root.render(
 
 <ListRender/>
 
-
+<StyleComponent/>
 
     </div>
   );

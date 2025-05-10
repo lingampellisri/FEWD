@@ -16,7 +16,7 @@ function ListRender()
 
     return <div>
         {
-            persons.map((person)=><h2>{person.id} ,  {person.name} , {person.age}</h2>)
+            persons.map((person)=><h2 key={person.id}>{person.id} ,  {person.name} , {person.age}</h2>)
         }
     </div>
 }
