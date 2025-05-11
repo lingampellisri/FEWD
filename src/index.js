@@ -64,7 +64,7 @@ root.render(
 
 <LifeCycleA/>
 
-{/* <ParentComponentC1/> */}
+<ParentComponentC1/>
 
     </div>
   );
