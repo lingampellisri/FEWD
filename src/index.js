@@ -30,6 +30,9 @@ import LifeCycleA from "./Components/LifeCycle";
 
 import Event_Button from "./Components/Event_Han";
 import ListRender from "./Components/List_Rendering";
+
+// import ParentComponent from "./Components/ParentComponent";
+import ParentComponentC1 from "./Components/PureComponent/ParentCom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -60,6 +63,8 @@ root.render(
 <Form/>
 
 <LifeCycleA/>
+
+{/* <ParentComponentC1/> */}
 
     </div>
   );
