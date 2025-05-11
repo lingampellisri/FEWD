@@ -33,6 +33,7 @@ import ListRender from "./Components/List_Rendering";
 
 // import ParentComponent from "./Components/ParentComponent";
 import ParentComponentC1 from "./Components/PureComponent/ParentCom";
+import RefComp from "./Components/Day1-11-5-25/RefCom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -65,6 +66,7 @@ root.render(
 <LifeCycleA/>
 
 <ParentComponentC1/>
+<RefComp/>
 
     </div>
   );
