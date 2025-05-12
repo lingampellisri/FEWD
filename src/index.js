@@ -35,6 +35,9 @@ import ListRender from "./Components/List_Rendering";
 import ParentComponentC1 from "./Components/PureComponent/ParentCom";
 import RefComp from "./Components/Day1-11-5-25/RefCom";
 import PortalComponent from "./Components/Day2-12-5-25/portals1";
+import Hero from "./Components/Day2-12-5-25/Hero";
+
+import ErrorBoundary from "./Components/Day2-12-5-25/ErrorBoundary";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -71,6 +74,15 @@ root.render(
 <RefComp/> */}
 
 <PortalComponent/>
+
+<ErrorBoundary>
+    <Hero heroName={"Super man"} />
+    </ErrorBoundary>
+    <ErrorBoundary><Hero heroName={"SpiderMan"} /></ErrorBoundary>
+
+<ErrorBoundary><Hero heroName={"Joker"} /></ErrorBoundary>
+
+
 
     </div>
   );
