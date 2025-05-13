@@ -38,12 +38,14 @@ import PortalComponent from "./Components/Day2-12-5-25/portals1";
 import Hero from "./Components/Day2-12-5-25/Hero";
 
 import ErrorBoundary from "./Components/Day2-12-5-25/ErrorBoundary";
+import PostList from "./Components/Day3-13-5-25CURD_op/PostList";
+import PostData from "./Components/Day3-13-5-25CURD_op/PostData";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
     
-    <ConditionalRendering/> 
+    {/* <ConditionalRendering/> 
 <Display/>
 
 <ObjectDisplay/>
@@ -73,16 +75,18 @@ root.render(
 {/* <ParentComponentC1/>
 <RefComp/> */}
 
-<PortalComponent/>
+{/* <PortalComponent/> */}
 
-<ErrorBoundary>
+{/* <ErrorBoundary>
     <Hero heroName={"Super man"} />
     </ErrorBoundary>
     <ErrorBoundary><Hero heroName={"SpiderMan"} /></ErrorBoundary>
 
-<ErrorBoundary><Hero heroName={"Joker"} /></ErrorBoundary>
+<ErrorBoundary><Hero heroName={"Joker"} /></ErrorBoundary> */} 
 
+{/* <PostList/> */}
 
+<PostData/>
 
     </div>
   );
