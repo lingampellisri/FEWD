@@ -50,6 +50,7 @@ import DataFetch from "./Components/Day4-14-5-25/DataFetchAPI";
 export const UserContext=React.createContext();
 
 import UserContextCom from "./Components/Day4-14-5-25/UserContextConsumer";
+import ReducerCounter from "./Components/Day4-14-5-25/UseReducerHook";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -105,10 +106,12 @@ root.render(
 {/* <DataFetch/> */}
 
 
-
+{/* 
 <UserContext.Provider value={"Srinivas Lingampelli"} >
 <UserContextCom/>
-</UserContext.Provider>
+</UserContext.Provider> */}
+
+<ReducerCounter/>
 
 
     </div>
