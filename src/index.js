@@ -42,6 +42,7 @@ import PostList from "./Components/Day3-13-5-25CURD_op/PostList";
 import PostData from "./Components/Day3-13-5-25CURD_op/PostData";
 
 import Hooks from "./Components/Day4-14-5-25/HooksOne";
+import HooksRun from "./Components/Day4-14-5-25/HooksTwo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -90,8 +91,8 @@ root.render(
 
 {/* <PostData/> */}
 
-<Hooks/>
+{/* <Hooks/> */}
 
-
+<HooksRun/>
     </div>
   );
