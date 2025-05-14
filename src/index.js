@@ -45,6 +45,8 @@ import Hooks from "./Components/Day4-14-5-25/HooksOne";
 import HooksRun from "./Components/Day4-14-5-25/HooksTwo";
 import HooksInterval from "./Components/Day4-14-5-25/IntervalHookCounter";
 
+import DataFetch from "./Components/Day4-14-5-25/DataFetchAPI";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -94,6 +96,10 @@ root.render(
 
 {/* <Hooks/> */}
 
-<HooksInterval/>
+{/* <HooksInterval/> */}
+
+<DataFetch/>
+
+
     </div>
   );
