@@ -47,6 +47,10 @@ import HooksInterval from "./Components/Day4-14-5-25/IntervalHookCounter";
 
 import DataFetch from "./Components/Day4-14-5-25/DataFetchAPI";
 
+export const UserContext=React.createContext();
+
+import UserContextCom from "./Components/Day4-14-5-25/UserContextConsumer";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -98,7 +102,13 @@ root.render(
 
 {/* <HooksInterval/> */}
 
-<DataFetch/>
+{/* <DataFetch/> */}
+
+
+
+<UserContext.Provider value={"Srinivas Lingampelli"} >
+<UserContextCom/>
+</UserContext.Provider>
 
 
     </div>
