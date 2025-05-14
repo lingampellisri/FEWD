@@ -41,6 +41,8 @@ import ErrorBoundary from "./Components/Day2-12-5-25/ErrorBoundary";
 import PostList from "./Components/Day3-13-5-25CURD_op/PostList";
 import PostData from "./Components/Day3-13-5-25CURD_op/PostData";
 
+import Hooks from "./Components/Day4-14-5-25/HooksOne";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -86,7 +88,10 @@ root.render(
 
 {/* <PostList/> */}
 
-<PostData/>
+{/* <PostData/> */}
+
+<Hooks/>
+
 
     </div>
   );
