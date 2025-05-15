@@ -52,6 +52,11 @@ export const UserContext=React.createContext();
 import UserContextCom from "./Components/Day4-14-5-25/UserContextConsumer";
 import ReducerCounter from "./Components/Day4-14-5-25/UseReducerHook";
 
+import CounterUseCallBack from "./Components/Day5-15-5-25/UseCallBackParent";
+import Appppp from "./Components/Day5-15-5-25/DiffCode";
+
+import UseMemo from "./Components/Day5-15-5-25/UseMemo";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -111,8 +116,14 @@ root.render(
 <UserContextCom/>
 </UserContext.Provider> */}
 
-<ReducerCounter/>
+{/* <ReducerCounter/> */}
 
+{/* <CounterUseCallBack/> */}
+
+{/* <Appppp/> */}
+
+
+<UseMemo/>
 
     </div>
   );
