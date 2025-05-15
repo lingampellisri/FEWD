@@ -56,6 +56,7 @@ import CounterUseCallBack from "./Components/Day5-15-5-25/UseCallBackParent";
 import Appppp from "./Components/Day5-15-5-25/DiffCode";
 
 import UseMemo from "./Components/Day5-15-5-25/UseMemo";
+import UseRefFocus from "./Components/Day5-15-5-25/UseRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -123,7 +124,9 @@ root.render(
 {/* <Appppp/> */}
 
 
-<UseMemo/>
+{/* <UseMemo/> */}
+
+<UseRefFocus/>
 
     </div>
   );
