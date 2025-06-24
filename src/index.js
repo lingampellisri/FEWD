@@ -58,6 +58,13 @@ import Appppp from "./Components/Day5-15-5-25/DiffCode";
 import UseMemo from "./Components/Day5-15-5-25/UseMemo";
 import UseRefFocus from "./Components/Day5-15-5-25/UseRef";
 
+import DisplayTxt from "./Components/TestStd/Functional";
+import BindFunction from "./Components/TestStd/BindEvents";
+
+import UseRef from "./Components/UseRefExample";
+
+import AxiosApp from "./Components/Axios.js/TestAxios";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <div>
@@ -126,7 +133,16 @@ root.render(
 
 {/* <UseMemo/> */}
 
-<UseRefFocus/>
+{/* <UseRefFocus/>
+ */}
+
+ {/* <DisplayTxt/> */}
+
+ {/* <BindFunction/> */}
+
+{/* <UseRef/> */}
+
+<AxiosApp/>
 
     </div>
   );
