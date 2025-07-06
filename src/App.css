@@ -1,0 +1,27 @@
+/* Light mode styles */
+.light-mode {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
