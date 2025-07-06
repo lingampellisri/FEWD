@@ -171,12 +171,13 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink ,Link} from "react-router-dom";
 
 import About from "./Components/Routing/About";
 import Contact from "./Components/Routing/Contact";
 import Products from "./Components/Routing/Products";
 import Home from "./Components/Routing/Home";
+import User from "./Components/Routing/User";
 // import "./styles.css"; // Create this file for styling active links
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -198,6 +199,15 @@ root.render(
         <NavLink to="/products" className="nav-link">
           Products
         </NavLink>
+        <Link to="/user/12" className="nav-link">
+          User
+        </Link>
+        \<Link to="/user/11" className="nav-link">
+          User1
+        </Link>
+        <Link to="/user/1210" className="nav-link">
+          User2
+        </Link>
       </nav>
 
       {/* ✅ Route Definitions */}
@@ -206,6 +216,7 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
+         <Route path="/user/:id" element={<User />} /> {/* Route with parameter */}
       </Routes>
     </div>
   </BrowserRouter>
