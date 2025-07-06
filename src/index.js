@@ -64,6 +64,7 @@ import BindFunction from "./Components/TestStd/BindEvents";
 import UseRef from "./Components/UseRefExample";
 
 import AxiosApp from "./Components/Axios.js/TestAxios";
+import Lab1 from "./Components/Axios.js/Lab1";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -142,7 +143,9 @@ root.render(
 
 {/* <UseRef/> */}
 
-<AxiosApp/>
+{/* <AxiosApp/> */}
+
+    <Lab1/>
 
     </div>
   );
