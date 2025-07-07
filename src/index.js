@@ -178,6 +178,11 @@ import Contact from "./Components/Routing/Contact";
 import Products from "./Components/Routing/Products";
 import Home from "./Components/Routing/Home";
 import User from "./Components/Routing/User";
+import SearchParams from "./Components/Routing/SearchParams";
+import MyComponentCycle from "./Components/Axios.js/ReactLifeCycle";
+import MyFuncCycle from "./Components/Axios.js/FunctionalCycle";
+import ParentComp from "./Components/Axios.js/ParentComp";
+import Lab6 from "./Components/Axios.js/Lab6";
 // import "./styles.css"; // Create this file for styling active links
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -202,11 +207,15 @@ root.render(
         <Link to="/user/12" className="nav-link">
           User
         </Link>
-        \<Link to="/user/11" className="nav-link">
+        <Link to="/user/11" className="nav-link">
           User1
         </Link>
         <Link to="/user/1210" className="nav-link">
           User2
+        </Link>
+
+        <Link to="/search?name=John" className="nav-link">
+          Search params
         </Link>
       </nav>
 
@@ -217,7 +226,15 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
          <Route path="/user/:id" element={<User />} /> {/* Route with parameter */}
+
+        <Route path="/search" element={<SearchParams />} /> {/* Search params route */}
       </Routes>
+      {/* <MyComponentCycle/> */}
+      {/* <MyFuncCycle/> */}
+      <ParentComp/>
+      <Lab6/>
+      
     </div>
+  
   </BrowserRouter>
 );
